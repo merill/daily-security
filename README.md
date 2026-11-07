@@ -57,5 +57,8 @@ npm run dev
 ## Deploying
 
 Cloudflare Pages, connected to this repository: production branch `main`, no
-build command, output directory `website`. Repository secrets: `OPENAI_API_KEY`
-(summaries); optionally `DISCORD_WEBHOOK_URL` and `HEALTHCHECKS_PING_URL`.
+build command, output directory `website`. Summaries authenticate to OpenAI
+with workload identity federation, not an API key: set the repository variables
+`OPENAI_IDENTITY_PROVIDER_ID` and `OPENAI_SERVICE_ACCOUNT_ID` (see the engine
+README's OpenAI credentials section). Optional secrets: `DISCORD_WEBHOOK_URL`
+and `HEALTHCHECKS_PING_URL`.

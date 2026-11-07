@@ -9,5 +9,5 @@ permissions:
 
 jobs:
   verify:
-    uses: merill/dailynews-engine/.github/workflows/product-verify.yml@v1.2.0
+    uses: merill/dailynews-engine/.github/workflows/product-verify.yml@v1.3.0
     secrets: inherit

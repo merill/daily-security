@@ -23,10 +23,12 @@ on:
 
 permissions:
   contents: write
+  # OpenAI workload identity federation: no API key is stored.
+  id-token: write
 
 jobs:
   monitor:
-    uses: merill/dailynews-engine/.github/workflows/product-monitor.yml@v1.2.0
+    uses: merill/dailynews-engine/.github/workflows/product-monitor.yml@v1.3.0
     secrets: inherit
     with:
       backfill_period_summaries: ${{ inputs.backfill_period_summaries == true }}
