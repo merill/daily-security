@@ -1,0 +1,34 @@
+name: Docs monitor
+
+# The steps live in the engine's reusable workflow; this file only owns the
+# schedule and the manual inputs. Six-hour UTC cadence.
+
+on:
+  schedule:
+    - cron: '25 2,8,14,20 * * *'
+  workflow_dispatch:
+    inputs:
+      backfill_period_summaries:
+        description: Regenerate historical weekly and monthly editorial briefs
+        type: boolean
+        default: false
+      regenerate_current_period_summaries:
+        description: Force current day, week, and month briefs without budget limits
+        type: boolean
+        default: false
+      backfill_dates:
+        description: Regenerate recovered dates without Discord (comma-separated YYYY-MM-DD)
+        type: string
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    uses: merill/dailynews-engine/.github/workflows/product-monitor.yml@v1.2.0
+    secrets: inherit
+    with:
+      backfill_period_summaries: ${{ inputs.backfill_period_summaries == true }}
+      regenerate_current_period_summaries: ${{ inputs.regenerate_current_period_summaries == true }}
+      backfill_dates: ${{ inputs.backfill_dates || '' }}

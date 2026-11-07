@@ -1,0 +1,13 @@
+# Daily Zero Trust News
+
+A readable record of what changed across Microsoft security guidance: Zero Trust, adoption, privileged access and AI security.
+
+- [Latest day](https://daily.zerotrust.admin.news/)
+- [Current week](https://daily.zerotrust.admin.news/week/)
+- [Products](https://daily.zerotrust.admin.news/products/)
+- [Topics](https://daily.zerotrust.admin.news/topics/)
+- [Message Center](https://daily.zerotrust.admin.news/message-center/)
+- [Search the archive](https://daily.zerotrust.admin.news/search/)
+- [Compare a Learn page](https://mx.merill.net/)
+- [About](https://daily.zerotrust.admin.news/about/)
+- [RSS](https://daily.zerotrust.admin.news/rss.xml)

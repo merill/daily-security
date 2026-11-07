@@ -1,0 +1,18 @@
+{
+  "name": "daily-zerotrust",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily.ZeroTrust.Admin.News: product configuration, assets and site for the dailynews engine.",
+  "scripts": {
+    "engine:link": "node \"${DAILYNEWS_ENGINE:-../dailynews-engine}/scripts/link-product.js\"",
+    "docs:clone": "dailynews clone-docs",
+    "start": "dailynews monitor",
+    "dev": "dailynews serve",
+    "build:site": "dailynews build-site && dailynews search-index",
+    "backfill": "TZ=UTC dailynews backfill",
+    "summaries:periods": "dailynews summaries --current",
+    "test": "node --test src/test-product.js"
+  },
+  "author": "Merill Fernando",
+  "license": "MIT"
+}

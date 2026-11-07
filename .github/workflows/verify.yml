@@ -1,0 +1,13 @@
+name: Verify site build
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    uses: merill/dailynews-engine/.github/workflows/product-verify.yml@v1.2.0
+    secrets: inherit

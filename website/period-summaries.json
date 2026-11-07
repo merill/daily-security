@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "generatedAt": "2026-11-07T02:24:35.944Z",
+  "generator": {
+    "model": "deterministic-backfill",
+    "reasoningEffort": "none"
+  },
+  "days": {
+    "2026-11-06": {
+      "headline": "Security standards and frameworks leads 17 security guidance updates",
+      "overview": "6 November 2026 recorded 1 new, 16 updated Microsoft security guidance documentation changes. The most active areas were Security adoption, Zero Trust, AI security.",
+      "adminImpact": "Review the linked Microsoft Learn changes that apply to your managed platforms, policies, applications, and rollout plans. The archive preserves the source diff for verification.",
+      "keyChanges": [
+        {
+          "title": "Security standards and frameworks",
+          "detail": "Added Microsoft security guidance documentation in security-docs/zero-trust/security-standards-and-frameworks.md.",
+          "product": "Security adoption",
+          "sourceId": "doc-2026-11-06-security-standards-and-frameworks-01"
+        },
+        {
+          "title": "Microsoft Security Adoption Framework (SAF)",
+          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-model.md.",
+          "product": "Security adoption",
+          "sourceId": "doc-2026-11-06-microsoft-security-adoption-framework-saf-04"
+        },
+        {
+          "title": "Microsoft Zero Trust Workshop - SecOps",
+          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-security-operations.md.",
+          "product": "Security operations",
+          "sourceId": "doc-2026-11-06-microsoft-zero-trust-workshop-secops-17"
+        },
+        {
+          "title": "Security Adoption Scenario Secure Ai",
+          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-secure-ai.md.",
+          "product": "AI security",
+          "sourceId": "doc-2026-11-06-security-adoption-scenario-secure-ai-08"
+        },
+        {
+          "title": "Workshop Zero Trust Data",
+          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-data.md.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-06-workshop-zero-trust-data-11"
+        }
+      ],
+      "generatedBy": "deterministic-backfill",
+      "generatedAt": "2026-11-07T02:24:35.944Z"
+    }
+  },
+  "weeks": {
+    "2026-11-02": {
+      "headline": "Security standards and frameworks leads 17 security guidance updates",
+      "overview": "Week of 2 November 2026 recorded 1 new, 16 updated Microsoft security guidance documentation changes. The most active areas were Security adoption, Zero Trust, AI security.",
+      "adminImpact": "Review the linked Microsoft Learn changes that apply to your managed platforms, policies, applications, and rollout plans. The archive preserves the source diff for verification.",
+      "keyChanges": [
+        {
+          "title": "Security standards and frameworks",
+          "detail": "Added Microsoft security guidance documentation in security-docs/zero-trust/security-standards-and-frameworks.md.",
+          "product": "Security adoption",
+          "sourceId": "doc-2026-11-06-security-standards-and-frameworks-01"
+        },
+        {
+          "title": "Microsoft Security Adoption Framework (SAF)",
+          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-model.md.",
+          "product": "Security adoption",
+          "sourceId": "doc-2026-11-06-microsoft-security-adoption-framework-saf-04"
+        },
+        {
+          "title": "Microsoft Zero Trust Workshop - SecOps",
+          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-security-operations.md.",
+          "product": "Security operations",
+          "sourceId": "doc-2026-11-06-microsoft-zero-trust-workshop-secops-17"
+        },
+        {
+          "title": "Security Adoption Scenario Secure Ai",
+          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-secure-ai.md.",
+          "product": "AI security",
+          "sourceId": "doc-2026-11-06-security-adoption-scenario-secure-ai-08"
+        },
+        {
+          "title": "Workshop Zero Trust Data",
+          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-data.md.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-06-workshop-zero-trust-data-11"
+        }
+      ],
+      "generatedBy": "deterministic-backfill",
+      "generatedAt": "2026-11-07T02:24:35.944Z"
+    }
+  },
+  "months": {
+    "2026-11": {
+      "headline": "Security standards and frameworks leads 17 security guidance updates",
+      "overview": "November 2026 recorded 1 new, 16 updated Microsoft security guidance documentation changes. The most active areas were Security adoption, Zero Trust, AI security.",
+      "adminImpact": "Review the linked Microsoft Learn changes that apply to your managed platforms, policies, applications, and rollout plans. The archive preserves the source diff for verification.",
+      "keyChanges": [
+        {
+          "title": "Security standards and frameworks",
+          "detail": "Added Microsoft security guidance documentation in security-docs/zero-trust/security-standards-and-frameworks.md.",
+          "product": "Security adoption",
+          "sourceId": "doc-2026-11-06-security-standards-and-frameworks-01"
+        },
+        {
+          "title": "Microsoft Security Adoption Framework (SAF)",
+          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-model.md.",
+          "product": "Security adoption",
+          "sourceId": "doc-2026-11-06-microsoft-security-adoption-framework-saf-04"
+        },
+        {
+          "title": "Microsoft Zero Trust Workshop - SecOps",
+          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-security-operations.md.",
+          "product": "Security operations",
+          "sourceId": "doc-2026-11-06-microsoft-zero-trust-workshop-secops-17"
+        },
+        {
+          "title": "Security Adoption Scenario Secure Ai",
+          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-secure-ai.md.",
+          "product": "AI security",
+          "sourceId": "doc-2026-11-06-security-adoption-scenario-secure-ai-08"
+        },
+        {
+          "title": "Workshop Zero Trust Data",
+          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-data.md.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-06-workshop-zero-trust-data-11"
+        }
+      ],
+      "generatedBy": "deterministic-backfill",
+      "generatedAt": "2026-11-07T02:24:35.944Z"
+    }
+  },
+  "usageByDay": {},
+  "lastRun": {
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "requests": 0,
+    "costUsd": 0
+  },
+  "totalUsage": {
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "requests": 0,
+    "costUsd": 0
+  }
+}

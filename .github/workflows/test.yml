@@ -1,0 +1,14 @@
+name: Tests
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    uses: merill/dailynews-engine/.github/workflows/product-test.yml@v1.2.0
