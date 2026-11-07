@@ -1,6 +1,6 @@
 
-const THEME_STORAGE_KEY='zerotrust-news-theme';
-const GITHUB_TOKEN_STORAGE_KEY='zerotrust-news-github-token';
+const THEME_STORAGE_KEY='security-news-theme';
+const GITHUB_TOKEN_STORAGE_KEY='security-news-github-token';
 function applyTheme(theme,persist){const value=theme==='dark'?'dark':'light';document.documentElement.dataset.theme=value;document.documentElement.style.colorScheme=value;document.querySelectorAll('[data-theme-option]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.themeOption===value)));if(persist){try{localStorage.setItem(THEME_STORAGE_KEY,value)}catch{}}}
 document.querySelectorAll('[data-theme-option]').forEach(button=>button.addEventListener('click',()=>applyTheme(button.dataset.themeOption,true)));
 applyTheme(document.documentElement.dataset.theme||'light',false);

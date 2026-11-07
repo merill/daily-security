@@ -1,4 +1,4 @@
-// Product configuration for Daily.ZeroTrust.Admin.News.
+// Product configuration for Daily.Security.Admin.News.
 //
 // CommonJS rather than JSON because the classification rules are RegExps.
 // Everything the engine needs that is specific to this product lives here; the
@@ -11,6 +11,10 @@
 // commit per crawl that found a change, at the path of the source file Learn
 // built each page from.
 //
+// Daily Security News is the umbrella for Microsoft security guidance: other
+// security documentation mirrors can join this site later, once the engine
+// reads more than one docs.source.
+//
 // The guidance names Entra, Intune, Defender and Purview throughout, because it
 // tells you how to use them. That is content, not a leftover from a sibling.
 
@@ -19,9 +23,9 @@ const TRACKED = /^(security-docs)\/(?!(?:.*\/)?(?:includes?|media|breadcrumb)\/)
 
 module.exports = {
   site: {
-    name: 'Daily Zero Trust News',
-    host: 'daily.zerotrust.admin.news',
-    url: 'https://daily.zerotrust.admin.news',
+    name: 'Daily Security News',
+    host: 'daily.security.admin.news',
+    url: 'https://daily.security.admin.news',
     description: 'A readable record of what changed across Microsoft security guidance: Zero Trust, adoption, privileged access and AI security.',
     productName: 'Microsoft security guidance',
     audience: 'security architects and administrators'
@@ -31,14 +35,14 @@ module.exports = {
   email: { enabled: false },
 
   brand: {
-    wordmark: 'Daily Zero Trust News',
-    ogAlt: 'Daily Zero Trust News: Microsoft security guidance change intelligence',
-    themeStorageKey: 'zerotrust-news-theme',
-    tokenStorageKey: 'zerotrust-news-github-token',
-    emailEyebrow: 'Daily Zero Trust News',
-    logo: 'zerotrust-news-logo.png',
+    wordmark: 'Daily Security News',
+    ogAlt: 'Daily Security News: Microsoft security guidance change intelligence',
+    themeStorageKey: 'security-news-theme',
+    tokenStorageKey: 'security-news-github-token',
+    emailEyebrow: 'Daily Security News',
+    logo: 'security-news-logo.png',
     aboutIcon: '/assets/products/zero-trust.svg',
-    uiAssets: ['zerotrust-news-logo.png'],
+    uiAssets: ['security-news-logo.png'],
     extraCss: ''
   },
 
@@ -46,16 +50,16 @@ module.exports = {
   // once the site is live: see the engine README.
   identity: {
     docEventPrefix: 'security-docs',
-    batchEventPrefix: 'zerotrust-news',
-    kitMarkerPrefix: 'daily-zerotrust-news'
+    batchEventPrefix: 'security-news',
+    kitMarkerPrefix: 'daily-security-news'
   },
 
   build: { docsCloneDir: 'security-docs', detailDays: 30 },
 
-  discord: { botName: 'Zero Trust Scout' },
+  discord: { botName: 'Security Scout' },
 
   ai: {
-    schemaPrefix: 'zerotrust',
+    schemaPrefix: 'security',
     subject: 'security guidance',
     forbiddenOpeners: ['Microsoft security documentation', 'The security guidance', 'Zero Trust documentation'],
     impactBoost: /privileged access|ransomware|incident response|playbook|conditional access|phishing-resistant|ai agent|prompt injection|secure future initiative|token theft/
@@ -204,7 +208,7 @@ module.exports = {
   },
 
   copy: {
-    rssFeedLabel: 'Subscribe to the Daily Zero Trust News RSS feed',
+    rssFeedLabel: 'Subscribe to the Daily Security News RSS feed',
     messageCenterHeading: 'Zero Trust in Message Center',
     landing: {
       heading: 'Today in Microsoft security guidance',
@@ -225,7 +229,7 @@ module.exports = {
       mapping: 'Security guidance pages map to merill/security-docs-mirror, rebuilt from Microsoft Learn.'
     },
     dailyEmail: {
-      eyebrow: 'Daily Zero Trust News',
+      eyebrow: 'Daily Security News',
       intro: 'A short daily summary of what changed across Microsoft security guidance.'
     },
     detail: {
@@ -236,10 +240,10 @@ module.exports = {
     },
     footer: {
       featureBlurb: 'Maester Cloud continuously tests your Microsoft 365 security configuration against Zero Trust guidance.',
-      tagline: 'Daily.ZeroTrust.Admin.News: an independent record of Microsoft security guidance changes.'
+      tagline: 'Daily.Security.Admin.News: an independent record of Microsoft security guidance changes.'
     },
     about: {
-      heading: 'About Daily.ZeroTrust.Admin.News',
+      heading: 'About Daily.Security.Admin.News',
       lede: 'A readable daily record of what Microsoft changed across its Zero Trust and security guidance.',
       whyItExists: [
         'Microsoft\'s security guidance, from Zero Trust deployment to privileged access, ransomware and AI security, changes constantly. Most changes are never announced anywhere.',
@@ -250,7 +254,7 @@ module.exports = {
         'Every six hours this site reads that history. Each change is summarised, classified by area and theme, and published with a link to the exact revision that produced it.',
         'Nothing here is official. It is a reading of the public documentation.'
       ],
-      emailEyebrow: 'Daily Zero Trust News',
+      emailEyebrow: 'Daily Security News',
       emailBody: 'A short daily summary of what changed across Microsoft security guidance.',
       extraSections: [],
       community: [

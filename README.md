@@ -1,10 +1,15 @@
-# daily-zerotrust
+# daily-security
 
-[daily.zerotrust.admin.news](https://daily.zerotrust.admin.news): a readable
+[daily.security.admin.news](https://daily.security.admin.news): a readable
 daily record of what changed across Microsoft's security guidance on Learn:
 Zero Trust, the security adoption framework and CISO workshop, security
 operations, privileged access, ransomware, AI security, the Secure Future
 Initiative, security engineering and the Trusted Root Program.
+
+It is the umbrella site for Microsoft security guidance. Today it reads one
+source, `merill/security-docs-mirror`; other security documentation mirrors
+can join it later, which needs the engine to accept more than one
+`docs.source`.
 
 This repository holds the product: its configuration, its assets, and its
 generated site. The generator, the workflows' steps and the test suite live in

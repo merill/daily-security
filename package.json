@@ -1,8 +1,8 @@
 {
-  "name": "daily-zerotrust",
+  "name": "daily-security",
   "version": "1.0.0",
   "private": true,
-  "description": "Daily.ZeroTrust.Admin.News: product configuration, assets and site for the dailynews engine.",
+  "description": "Daily.Security.Admin.News: product configuration, assets and site for the dailynews engine.",
   "scripts": {
     "engine:link": "node \"${DAILYNEWS_ENGINE:-../dailynews-engine}/scripts/link-product.js\"",
     "docs:clone": "dailynews clone-docs",

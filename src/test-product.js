@@ -1,4 +1,4 @@
-// Daily Zero Trust News against the engine's shared product checks, plus what
+// Daily Security News against the engine's shared product checks, plus what
 // is particular to it: thirteen zero-trust/ pages publish in the adoption and
 // operations sections, and are routed to those canonical URLs.
 const path = require('node:path');
