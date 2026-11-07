@@ -1,144 +1,136 @@
 {
-  "version": 3,
-  "generatedAt": "2026-11-07T02:24:35.944Z",
-  "generator": {
-    "model": "deterministic-backfill",
-    "reasoningEffort": "none"
-  },
   "days": {
     "2026-11-06": {
-      "headline": "Security standards and frameworks leads 17 security guidance updates",
-      "overview": "6 November 2026 recorded 1 new, 16 updated Microsoft security guidance documentation changes. The most active areas were Security adoption, Zero Trust, AI security.",
-      "adminImpact": "Review the linked Microsoft Learn changes that apply to your managed platforms, policies, applications, and rollout plans. The archive preserves the source diff for verification.",
+      "headline": "New SAF mappings connect Zero Trust objectives to roles and capabilities",
+      "overview": "A new Security standards and frameworks page maps framework objectives to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance, including Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy. The SAF guidance now explains relationships among business priorities, risk, Zero Trust principles, disciplines, technologies, and technical solutions, while adding shared-responsibility, implementation, measurement, and four-component framework guidance. SAF navigation also shifts to objective- and role-based entry points. Most remaining updates refresh publication dates, internal references, or headings across Security Adoption and Zero Trust workshop pages.",
+      "adminImpact": "Security architects and administrators can use the new mappings to plan improvements, coordinate responsibilities, and assess alignment with framework objectives. The revised SAF structure and navigation provide a clearer way to direct stakeholders to strategy, architecture, disciplines, scenarios, technologies, workshops, and related guidance. No configuration or migration action is indicated.",
       "keyChanges": [
         {
-          "title": "Security standards and frameworks",
-          "detail": "Added Microsoft security guidance documentation in security-docs/zero-trust/security-standards-and-frameworks.md.",
+          "title": "Framework guidance maps Zero Trust objectives to SAF implementation paths",
+          "detail": "The new page links security standards and framework objectives to SAF disciplines, organizational roles, Microsoft security capabilities, and implementation guidance. Its examples cover Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-security-standards-and-frameworks-01"
         },
         {
-          "title": "Microsoft Security Adoption Framework (SAF)",
-          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-model.md.",
+          "title": "SAF guidance adds shared-responsibility and measurement context",
+          "detail": "The updated SAF page connects business priorities, risk, Zero Trust principles, security disciplines, technologies, and technical solutions. It adds guidance on shared responsibilities, implementation, measurement, and four connected framework components across hybrid, multicloud, and multiplatform environments.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-microsoft-security-adoption-framework-saf-04"
         },
         {
-          "title": "Microsoft Zero Trust Workshop - SecOps",
-          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-security-operations.md.",
-          "product": "Security operations",
-          "sourceId": "doc-2026-11-06-microsoft-zero-trust-workshop-secops-17"
-        },
-        {
-          "title": "Security Adoption Scenario Secure Ai",
-          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-secure-ai.md.",
-          "product": "AI security",
-          "sourceId": "doc-2026-11-06-security-adoption-scenario-secure-ai-08"
-        },
-        {
-          "title": "Workshop Zero Trust Data",
-          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-data.md.",
-          "product": "Zero Trust",
-          "sourceId": "doc-2026-11-06-workshop-zero-trust-data-11"
+          "title": "SAF navigation now directs readers by objective and organizational role",
+          "detail": "The retitled “Using SAF effectively” article replaces top-down, build-up, and scenario-driven patterns with tables that route readers to strategy, architecture, disciplines, scenarios, technologies, workshops, and related guidance based on their objectives or roles.",
+          "product": "Security adoption",
+          "sourceId": "doc-2026-11-06-using-saf-effectively-03"
         }
       ],
-      "generatedBy": "deterministic-backfill",
-      "generatedAt": "2026-11-07T02:24:35.944Z"
+      "generatedBy": "openai",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "xhigh",
+      "generatedAt": "2026-11-07T09:01:37.040Z",
+      "usage": {
+        "inputTokens": 2647,
+        "outputTokens": 1521,
+        "costUsd": 0.002355
+      }
     }
   },
   "weeks": {
     "2026-11-02": {
-      "headline": "Security standards and frameworks leads 17 security guidance updates",
-      "overview": "Week of 2 November 2026 recorded 1 new, 16 updated Microsoft security guidance documentation changes. The most active areas were Security adoption, Zero Trust, AI security.",
-      "adminImpact": "Review the linked Microsoft Learn changes that apply to your managed platforms, policies, applications, and rollout plans. The archive preserves the source diff for verification.",
+      "headline": "New SAF guidance maps Zero Trust frameworks to disciplines, roles, and Microsoft capabilities",
+      "overview": "The week added a new Security standards and frameworks page that maps framework objectives to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance, including Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy. The core SAF guidance also now connects business priorities, risk, Zero Trust principles, technologies, solutions, shared responsibilities, implementation, and measurement through four connected framework components. Most other updates were lower-impact page-date, metadata, capitalization, and internal-reference changes across Zero Trust, AI security, and SecOps workshop and scenario content.",
+      "adminImpact": "Security architects can use the new mappings and expanded SAF model to plan improvements, coordinate responsibilities, assess alignment with framework objectives, and track progress across hybrid, multicloud, and multiplatform environments. The updates to SAF navigation can help route stakeholders to relevant guidance; no configuration or migration action is indicated.",
       "keyChanges": [
         {
-          "title": "Security standards and frameworks",
-          "detail": "Added Microsoft security guidance documentation in security-docs/zero-trust/security-standards-and-frameworks.md.",
+          "title": "New standards-to-SAF mappings",
+          "detail": "The new Security standards and frameworks guidance maps security standards and framework objectives to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance. It includes mappings for Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-security-standards-and-frameworks-01"
         },
         {
-          "title": "Microsoft Security Adoption Framework (SAF)",
-          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-model.md.",
+          "title": "SAF now presents a connected operating model",
+          "detail": "The Microsoft Security Adoption Framework page now explains the relationships among business priorities, risk, Zero Trust principles, security disciplines, technologies, and technical solutions. It adds guidance on shared responsibilities, implementation, measurement, and four connected framework components.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-microsoft-security-adoption-framework-saf-04"
         },
         {
-          "title": "Microsoft Zero Trust Workshop - SecOps",
-          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-security-operations.md.",
-          "product": "Security operations",
-          "sourceId": "doc-2026-11-06-microsoft-zero-trust-workshop-secops-17"
-        },
-        {
-          "title": "Security Adoption Scenario Secure Ai",
-          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-secure-ai.md.",
-          "product": "AI security",
-          "sourceId": "doc-2026-11-06-security-adoption-scenario-secure-ai-08"
-        },
-        {
-          "title": "Workshop Zero Trust Data",
-          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-data.md.",
-          "product": "Zero Trust",
-          "sourceId": "doc-2026-11-06-workshop-zero-trust-data-11"
+          "title": "SAF navigation shifts to goals and organizational roles",
+          "detail": "Using SAF effectively now directs readers through tables based on their objectives or organizational role. These replace the previous top-down, build-up, and scenario-driven patterns with links to strategy, architecture, disciplines, scenarios, technologies, workshops, and related guidance.",
+          "product": "Security adoption",
+          "sourceId": "doc-2026-11-06-using-saf-effectively-03"
         }
       ],
-      "generatedBy": "deterministic-backfill",
-      "generatedAt": "2026-11-07T02:24:35.944Z"
+      "generatedBy": "openai",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "xhigh",
+      "generatedAt": "2026-11-07T09:01:37.040Z",
+      "usage": {
+        "inputTokens": 2650,
+        "outputTokens": 1330,
+        "costUsd": 0.002126
+      }
     }
   },
   "months": {
     "2026-11": {
-      "headline": "Security standards and frameworks leads 17 security guidance updates",
-      "overview": "November 2026 recorded 1 new, 16 updated Microsoft security guidance documentation changes. The most active areas were Security adoption, Zero Trust, AI security.",
-      "adminImpact": "Review the linked Microsoft Learn changes that apply to your managed platforms, policies, applications, and rollout plans. The archive preserves the source diff for verification.",
+      "headline": "New SAF mappings connect Zero Trust frameworks to disciplines, roles, and capabilities",
+      "overview": "November’s substantive change is a new Security standards and frameworks page mapping framework objectives to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance. It covers Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy. The core SAF guidance also expanded its explanation of business priorities, risk, Zero Trust principles, technologies, solutions, shared responsibilities, implementation, measurement, and four connected framework components. Most other updates were lower-impact date, metadata, capitalization, and internal-reference maintenance across security adoption, Zero Trust, AI security, and SecOps workshop content.",
+      "adminImpact": "Security architects can use the new mappings to plan improvements and assess alignment with framework objectives, while the expanded SAF model supports responsibility assignment, implementation planning, and progress measurement across hybrid, multicloud, and multiplatform environments. The revised navigation can help route stakeholders to relevant guidance. No configuration, migration, or other mandatory administrator action is indicated.",
       "keyChanges": [
         {
-          "title": "Security standards and frameworks",
-          "detail": "Added Microsoft security guidance documentation in security-docs/zero-trust/security-standards-and-frameworks.md.",
+          "title": "Framework objectives are mapped into the SAF operating model",
+          "detail": "The new Security standards and frameworks guidance maps standards and framework objectives to SAF disciplines, organizational roles, Microsoft security capabilities, and implementation guidance. Its examples include Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-security-standards-and-frameworks-01"
         },
         {
-          "title": "Microsoft Security Adoption Framework (SAF)",
-          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-model.md.",
+          "title": "SAF now connects strategy, risk, responsibilities, and measurement",
+          "detail": "The Microsoft Security Adoption Framework page now describes links among business priorities, risk, Zero Trust principles, security disciplines, technologies, and technical solutions. It also adds guidance on shared responsibilities, implementation, measurement, and four connected framework components.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-microsoft-security-adoption-framework-saf-04"
         },
         {
-          "title": "Microsoft Zero Trust Workshop - SecOps",
-          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-security-operations.md.",
-          "product": "Security operations",
-          "sourceId": "doc-2026-11-06-microsoft-zero-trust-workshop-secops-17"
-        },
-        {
-          "title": "Security Adoption Scenario Secure Ai",
-          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-secure-ai.md.",
-          "product": "AI security",
-          "sourceId": "doc-2026-11-06-security-adoption-scenario-secure-ai-08"
-        },
-        {
-          "title": "Workshop Zero Trust Data",
-          "detail": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-data.md.",
-          "product": "Zero Trust",
-          "sourceId": "doc-2026-11-06-workshop-zero-trust-data-11"
+          "title": "SAF navigation now uses objective- and role-based entry points",
+          "detail": "Using SAF effectively replaces the previous top-down, build-up, and scenario-driven patterns with tables that direct readers by objective or organizational role to strategy, architecture, disciplines, scenarios, technologies, workshops, and related guidance.",
+          "product": "Security adoption",
+          "sourceId": "doc-2026-11-06-using-saf-effectively-03"
         }
       ],
-      "generatedBy": "deterministic-backfill",
-      "generatedAt": "2026-11-07T02:24:35.944Z"
+      "generatedBy": "openai",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "xhigh",
+      "generatedAt": "2026-11-07T09:01:37.040Z",
+      "usage": {
+        "inputTokens": 2856,
+        "outputTokens": 1488,
+        "costUsd": 0.002357
+      }
     }
   },
-  "usageByDay": {},
+  "version": 3,
+  "generatedAt": "2026-11-07T09:01:37.040Z",
+  "generator": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "xhigh"
+  },
+  "usageByDay": {
+    "2026-11-07": {
+      "inputTokens": 8153,
+      "outputTokens": 4339,
+      "requests": 3,
+      "costUsd": 0.006837
+    }
+  },
   "lastRun": {
-    "inputTokens": 0,
-    "outputTokens": 0,
-    "requests": 0,
-    "costUsd": 0
+    "inputTokens": 8153,
+    "outputTokens": 4339,
+    "requests": 3,
+    "costUsd": 0.006837
   },
   "totalUsage": {
-    "inputTokens": 0,
-    "outputTokens": 0,
-    "requests": 0,
-    "costUsd": 0
+    "inputTokens": 8153,
+    "outputTokens": 4339,
+    "requests": 3,
+    "costUsd": 0.006837
   }
 }

@@ -18,11 +18,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:added:security-docs/zero-trust/security-standards-and-frameworks.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Added Microsoft security guidance documentation in security-docs/zero-trust/security-standards-and-frameworks.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "New guidance connects security frameworks to the Microsoft Security Adoption Framework",
+        "summary": "Added guidance explains how to map security standards and framework objectives to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance. It includes mappings for Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy.",
+        "adminImpact": "Administrators can use the mappings to plan security improvements, coordinate teams, and assess alignment with framework objectives and requirements. No action is required by this update.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     }
   ],
@@ -45,11 +46,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/microsoft-reference-architecture.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/microsoft-reference-architecture.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "MCRA documentation title and date updated",
+        "summary": "The page title and heading now omit “Review,” and the publication date changed from November 2 to November 6, 2026.",
+        "adminImpact": "Administrators can use the revised title and date when identifying the current MCRA guidance. No action is specified.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -70,11 +72,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/security-adoption-journey.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-journey.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "SAF guidance is reorganized around goals and roles",
+        "summary": "The article was retitled “Using SAF effectively” and now directs readers to entry points based on their objectives or organizational role. It replaces the previous top-down, build-up, and scenario-driven patterns with tables linking to strategy, architecture, disciplines, scenarios, technologies, workshops, and related guidance.",
+        "adminImpact": "Administrators can use the new goal- and role-based tables to direct stakeholders to relevant security adoption guidance. No configuration or migration is required.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -95,11 +98,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/security-adoption-model.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-model.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "Security Adoption Framework guidance is expanded",
+        "summary": "The page now explains how SAF connects business priorities, risk, Zero Trust principles, security disciplines, technologies, and technical solutions. It adds guidance on shared responsibilities, implementation, measurement, and four connected framework components.",
+        "adminImpact": "Administrators can use the updated framework to align security work, clarify roles, and track progress across hybrid, multicloud, and multiplatform environments.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -120,11 +124,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/security-adoption-scenario-improve-posture.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-improve-posture.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "Updated posture guidance metadata and links",
+        "summary": "The page date was updated to November 6, 2026, and its DevRel ontology links were refreshed.",
+        "adminImpact": "Administrators can use the updated date and cross-reference links when locating this guidance.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -145,11 +150,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/security-adoption-scenario-minimize-impact.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-minimize-impact.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "Updated page date and reference links",
+        "summary": "The page date changed to November 6, 2026, and its internal reference links were updated, including one newly added link.",
+        "adminImpact": "No administrator action is required based on this change.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -170,11 +176,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/security-adoption-scenario-remote-work.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-remote-work.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "Remote-work Zero Trust guidance references refreshed",
+        "summary": "The page date was updated to November 6, 2026, and its associated internal reference links were revised.",
+        "adminImpact": "No administrator action is indicated.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -195,11 +202,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/security-adoption-scenario-secure-ai.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-secure-ai.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "Publication date and reference links updated",
+        "summary": "The page date changed from May 24, 2026, to November 6, 2026, and two internal reference links were replaced.",
+        "adminImpact": "No administrator action is indicated.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -220,11 +228,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/security-adoption-scenario-secure-assets.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-secure-assets.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "Secure assets guidance date and references updated",
+        "summary": "The page date changed from May 24 to November 6, 2026, and six internal reference links were replaced with two updated links.",
+        "adminImpact": "Review the refreshed references when using this guidance; no administrator action is specified.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -245,11 +254,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/workshop-zero-trust-ai-security.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-ai-security.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "Zero Trust AI security workshop references updated",
+        "summary": "The page’s publication date was updated, and several internal reference links were replaced or consolidated.",
+        "adminImpact": "Administrators using the workshop should use the current reference links; no required action is stated.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -270,11 +280,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/workshop-zero-trust-data.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-data.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "Zero Trust data workshop documentation updated",
+        "summary": "The page’s last-updated date changed to November 6, 2026, and two authoring references were added.",
+        "adminImpact": "No administrator action is specified.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -295,11 +306,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/workshop-zero-trust-devices.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-devices.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "Zero Trust devices workshop metadata and links updated",
+        "summary": "The document date changed from May 24, 2026, to November 6, 2026, and its DevRel ontology metadata links were replaced with two authoring-docs links.",
+        "adminImpact": "No administrator action is indicated.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -320,11 +332,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/workshop-zero-trust-identity.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-identity.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "Zero Trust identity workshop references refreshed",
+        "summary": "The page date changed from May 31 to November 6, 2026, and several associated metadata links were replaced or removed.",
+        "adminImpact": "Administrators consulting this guidance should use the updated page and revised reference links. No administrator action is specified.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -345,11 +358,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/workshop-zero-trust-infrastructure.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-infrastructure.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "Zero Trust infrastructure workshop documentation updated",
+        "summary": "The document date changed from May 31, 2026 to November 6, 2026, and two reference links were added.",
+        "adminImpact": "No administrator action is indicated; administrators may review the updated guidance and references.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -370,11 +384,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/workshop-zero-trust-networking.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-networking.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "Workshop page metadata and references refreshed",
+        "summary": "The page date changed from May 31, 2026 to November 6, 2026, and several DevRel reference links were replaced.",
+        "adminImpact": "No administrator action is indicated.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -395,11 +410,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/workshop-zero-trust-overview.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-overview.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "Zero Trust workshop overview date updated",
+        "summary": "The page’s `ms.date` metadata changed from May 24, 2026, to November 6, 2026.",
+        "adminImpact": "No administrator action is required.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     },
     {
@@ -420,11 +436,12 @@
       "eventId": "security-docs:485842e22428e9677306144ef3c61660f3bf78c3:modified:security-docs/zero-trust/workshop-zero-trust-security-operations.md",
       "englishSummary": {
         "category": "Doc update",
-        "headline": "Mirror Learn: 16 changed, 1 added",
-        "summary": "Updated Microsoft security guidance documentation in security-docs/zero-trust/workshop-zero-trust-security-operations.md.",
-        "adminImpact": "Review the underlying documentation change to determine whether it affects tenant configuration or rollout plans.",
+        "headline": "Zero Trust SecOps workshop page title and date updated",
+        "summary": "The page title and heading now use “SecOps” capitalization, and the page date changed from May 24 to November 6, 2026.",
+        "adminImpact": "Administrators can use the updated naming and date to identify the current workshop documentation.",
         "actionRequired": false,
-        "generatedBy": "fallback"
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
       }
     }
   ],
@@ -443,7 +460,7 @@
       {
         "category": "Doc update",
         "title": "Zero Trust",
-        "summary": "Added Microsoft security guidance documentation in security-docs/zero-trust/security-standards-and-frameworks.md. Updated Microsoft security guidance documentation in security-docs/zero-trust/microsoft-reference-architecture.md. Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-journey.md. Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-model.md. Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-improve-posture.md. Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-minimize-impact.md. Updated",
+        "summary": "Added guidance explains how to map security standards and framework objectives to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance. It includes mappings for Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy. The page title and heading now omit “Review,” and the publication date changed from November 2 to November 6, 2026. The article was retitled “Using SAF effectively” and now directs readers to entry points based on their objectives or organizational role. It replaces the previous top-down, build-up, and scenario-driven patterns with tables linking to strategy, architecture, disciplines, scenarios, technologies, workshops, a",
         "sourceFiles": [
           "security-docs/zero-trust/security-standards-and-frameworks.md",
           "security-docs/zero-trust/microsoft-reference-architecture.md",
@@ -469,7 +486,7 @@
       {
         "category": "Doc update",
         "headline": "Zero Trust",
-        "detail": "Added Microsoft security guidance documentation in security-docs/zero-trust/security-standards-and-frameworks.md. Updated Microsoft security guidance documentation in security-docs/zero-trust/microsoft-reference-architecture.md. Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-journey.md. Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-model.md. Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-improve-posture.md. Updated Microsoft security guidance documentation in security-docs/zero-trust/security-adoption-scenario-minimize-impact.md. Updated"
+        "detail": "Added guidance explains how to map security standards and framework objectives to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance. It includes mappings for Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy. The page title and heading now omit “Review,” and the publication date changed from November 2 to November 6, 2026. The article was retitled “Using SAF effectively” and now directs readers to entry points based on their objectives or organizational role. It replaces the previous top-down, build-up, and scenario-driven patterns with tables linking to strategy, architecture, disciplines, scenarios, technologies, workshops, a"
       }
     ],
     "generatedBy": "fallback"
