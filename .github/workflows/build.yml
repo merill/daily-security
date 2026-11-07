@@ -14,5 +14,5 @@ permissions:
 
 jobs:
   build:
-    uses: merill/dailynews-engine/.github/workflows/product-build.yml@v1.3.0
+    uses: merill/dailynews-engine/.github/workflows/product-build.yml@v1.4.0
     secrets: inherit
