@@ -1,61 +1,73 @@
 {
   "days": {
     "2026-11-06": {
-      "headline": "New SAF mappings connect Zero Trust objectives to roles and capabilities",
-      "overview": "A new Security standards and frameworks page maps framework objectives to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance, including Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy. The SAF guidance now explains relationships among business priorities, risk, Zero Trust principles, disciplines, technologies, and technical solutions, while adding shared-responsibility, implementation, measurement, and four-component framework guidance. SAF navigation also shifts to objective- and role-based entry points. Most remaining updates refresh publication dates, internal references, or headings across Security Adoption and Zero Trust workshop pages.",
-      "adminImpact": "Security architects and administrators can use the new mappings to plan improvements, coordinate responsibilities, and assess alignment with framework objectives. The revised SAF structure and navigation provide a clearer way to direct stakeholders to strategy, architecture, disciplines, scenarios, technologies, workshops, and related guidance. No configuration or migration action is indicated.",
+      "headline": "SAF maps Zero Trust frameworks to disciplines, roles, capabilities, and implementation",
+      "overview": "The period centered on a substantive expansion and reorganization of Microsoft’s Security Adoption Framework guidance. New mapping guidance covers Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy, while related SAF material adds connections among business priorities, risk, responsibilities, implementation, and measurement. Two lower-impact updates refreshed titles and publication dates for MCRA and the SecOps workshop.",
+      "adminImpact": "Security architects and administrators can use the new framework mappings and role- or objective-based navigation to plan security improvements, coordinate stakeholders, assess alignment, and direct teams to relevant guidance. No configuration, migration, or other operational change is specified; the MCRA and SecOps updates primarily improve identification of current guidance.",
       "keyChanges": [
         {
-          "title": "Framework guidance maps Zero Trust objectives to SAF implementation paths",
-          "detail": "The new page links security standards and framework objectives to SAF disciplines, organizational roles, Microsoft security capabilities, and implementation guidance. Its examples cover Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy.",
+          "title": "New standards-to-SAF mappings",
+          "detail": "The new guidance maps security standards and framework objectives to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance, including mappings for Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-security-standards-and-frameworks-01"
         },
         {
-          "title": "SAF guidance adds shared-responsibility and measurement context",
-          "detail": "The updated SAF page connects business priorities, risk, Zero Trust principles, security disciplines, technologies, and technical solutions. It adds guidance on shared responsibilities, implementation, measurement, and four connected framework components across hybrid, multicloud, and multiplatform environments.",
+          "title": "SAF now links strategy through measurement",
+          "detail": "The SAF page now connects business priorities, risk, Zero Trust principles, security disciplines, technologies, and technical solutions, and adds guidance on shared responsibilities, implementation, measurement, and four connected framework components across hybrid, multicloud, and multiplatform environments.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-microsoft-security-adoption-framework-saf-04"
         },
         {
-          "title": "SAF navigation now directs readers by objective and organizational role",
-          "detail": "The retitled “Using SAF effectively” article replaces top-down, build-up, and scenario-driven patterns with tables that route readers to strategy, architecture, disciplines, scenarios, technologies, workshops, and related guidance based on their objectives or roles.",
+          "title": "SAF navigation shifts to goals and roles",
+          "detail": "“Using SAF effectively” now directs readers through tables organized around objectives and organizational roles, linking to strategy, architecture, disciplines, scenarios, technologies, workshops, and related guidance instead of the former top-down, build-up, and scenario-driven patterns.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-using-saf-effectively-03"
+        },
+        {
+          "title": "MCRA title and publication date refreshed",
+          "detail": "The MCRA page and heading now omit “Review,” and its publication date is shown as November 6, 2026, replacing November 2.",
+          "product": "Security adoption",
+          "sourceId": "doc-2026-11-06-microsoft-cybersecurity-reference-architectures-mcra-02"
+        },
+        {
+          "title": "SecOps workshop naming and date updated",
+          "detail": "The Microsoft Zero Trust Workshop page now uses “SecOps” capitalization in its title and heading, and its page date changed from May 24 to November 6, 2026.",
+          "product": "Security operations",
+          "sourceId": "doc-2026-11-06-microsoft-zero-trust-workshop-secops-05"
         }
       ],
       "generatedBy": "openai",
       "model": "gpt-5.6-luna",
       "reasoningEffort": "xhigh",
-      "generatedAt": "2026-11-07T09:01:37.040Z",
+      "generatedAt": "2026-11-07T13:14:54.903Z",
       "usage": {
-        "inputTokens": 2647,
-        "outputTokens": 1521,
-        "costUsd": 0.002355
+        "inputTokens": 1392,
+        "outputTokens": 1106,
+        "costUsd": 0.001606
       }
     }
   },
   "weeks": {
     "2026-11-02": {
-      "headline": "New SAF guidance maps Zero Trust frameworks to disciplines, roles, and Microsoft capabilities",
-      "overview": "The week added a new Security standards and frameworks page that maps framework objectives to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance, including Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy. The core SAF guidance also now connects business priorities, risk, Zero Trust principles, technologies, solutions, shared responsibilities, implementation, and measurement through four connected framework components. Most other updates were lower-impact page-date, metadata, capitalization, and internal-reference changes across Zero Trust, AI security, and SecOps workshop and scenario content.",
-      "adminImpact": "Security architects can use the new mappings and expanded SAF model to plan improvements, coordinate responsibilities, assess alignment with framework objectives, and track progress across hybrid, multicloud, and multiplatform environments. The updates to SAF navigation can help route stakeholders to relevant guidance; no configuration or migration action is indicated.",
+      "headline": "New SAF mappings connect Zero Trust frameworks to roles, disciplines, and Microsoft capabilities",
+      "overview": "The week’s substantive change was a broad expansion and reorganization of Security Adoption Framework guidance. A new standards-and-frameworks guide maps Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance. Related SAF updates clarify how business priorities, risk, Zero Trust principles, technologies, responsibilities, implementation, and measurement fit together, while a revised navigation page routes readers by objective or organizational role. The MCRA and Zero Trust SecOps workshop changes were limited to titles, capitalization, and publication dates.",
+      "adminImpact": "Security architects and administrators can use the new mappings to plan improvements and assess alignment with framework objectives, use the revised SAF model to coordinate responsibilities and measure progress, and direct stakeholders through the new goal- and role-based entry points. The supplied changes require no configuration or migration.",
       "keyChanges": [
         {
-          "title": "New standards-to-SAF mappings",
-          "detail": "The new Security standards and frameworks guidance maps security standards and framework objectives to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance. It includes mappings for Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy.",
+          "title": "Framework mappings tie Zero Trust objectives to SAF execution",
+          "detail": "The new Security standards and frameworks guidance maps Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance. This gives teams a structured way to connect framework requirements with planning and delivery.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-security-standards-and-frameworks-01"
         },
         {
-          "title": "SAF now presents a connected operating model",
-          "detail": "The Microsoft Security Adoption Framework page now explains the relationships among business priorities, risk, Zero Trust principles, security disciplines, technologies, and technical solutions. It adds guidance on shared responsibilities, implementation, measurement, and four connected framework components.",
+          "title": "SAF guidance now links priorities, risk, technology, and measurement",
+          "detail": "The Microsoft Security Adoption Framework page explains how business priorities and risk connect through Zero Trust principles, security disciplines, technologies, and technical solutions. It also adds guidance on shared responsibilities, implementation, measurement, and four connected framework components.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-microsoft-security-adoption-framework-saf-04"
         },
         {
-          "title": "SAF navigation shifts to goals and organizational roles",
-          "detail": "Using SAF effectively now directs readers through tables based on their objectives or organizational role. These replace the previous top-down, build-up, and scenario-driven patterns with links to strategy, architecture, disciplines, scenarios, technologies, workshops, and related guidance.",
+          "title": "SAF navigation shifts to objective- and role-based entry points",
+          "detail": "Using SAF effectively now directs readers through tables organized around objectives or organizational roles, linking to strategy, architecture, disciplines, scenarios, technologies, workshops, and related guidance. The page replaces the former top-down, build-up, and scenario-driven navigation patterns.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-using-saf-effectively-03"
         }
@@ -63,35 +75,35 @@
       "generatedBy": "openai",
       "model": "gpt-5.6-luna",
       "reasoningEffort": "xhigh",
-      "generatedAt": "2026-11-07T09:01:37.040Z",
+      "generatedAt": "2026-11-07T13:14:54.903Z",
       "usage": {
-        "inputTokens": 2650,
-        "outputTokens": 1330,
-        "costUsd": 0.002126
+        "inputTokens": 1395,
+        "outputTokens": 1006,
+        "costUsd": 0.001486
       }
     }
   },
   "months": {
     "2026-11": {
-      "headline": "New SAF mappings connect Zero Trust frameworks to disciplines, roles, and capabilities",
-      "overview": "November’s substantive change is a new Security standards and frameworks page mapping framework objectives to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance. It covers Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy. The core SAF guidance also expanded its explanation of business priorities, risk, Zero Trust principles, technologies, solutions, shared responsibilities, implementation, measurement, and four connected framework components. Most other updates were lower-impact date, metadata, capitalization, and internal-reference maintenance across security adoption, Zero Trust, AI security, and SecOps workshop content.",
-      "adminImpact": "Security architects can use the new mappings to plan improvements and assess alignment with framework objectives, while the expanded SAF model supports responsibility assignment, implementation planning, and progress measurement across hybrid, multicloud, and multiplatform environments. The revised navigation can help route stakeholders to relevant guidance. No configuration, migration, or other mandatory administrator action is indicated.",
+      "headline": "New SAF mappings link Zero Trust frameworks to roles, disciplines, and capabilities",
+      "overview": "November’s substantive updates expand and reorganize Microsoft Security Adoption Framework guidance. A new standards-and-frameworks guide maps Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance. Related updates explain how SAF connects business priorities, risk, Zero Trust principles, technologies, responsibilities, implementation, and measurement, while a revised navigation page directs readers by objective or organizational role. The remaining changes only revised MCRA and Zero Trust SecOps titles, capitalization, and publication dates.",
+      "adminImpact": "Security architects and administrators can use the new framework mappings to plan improvements and assess alignment with framework objectives, apply the expanded SAF model to coordinate responsibilities and measure progress, and route stakeholders to relevant guidance through the new goal- and role-based entry points. No configuration or migration is indicated; the MCRA and SecOps naming and date changes require no operational action.",
       "keyChanges": [
         {
-          "title": "Framework objectives are mapped into the SAF operating model",
-          "detail": "The new Security standards and frameworks guidance maps standards and framework objectives to SAF disciplines, organizational roles, Microsoft security capabilities, and implementation guidance. Its examples include Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy.",
+          "title": "Standards guidance maps major Zero Trust frameworks into SAF",
+          "detail": "The new guide maps security standards and framework objectives to SAF disciplines, roles, Microsoft security capabilities, and implementation guidance. Its examples cover Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy, giving teams a structured way to plan improvements and assess alignment.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-security-standards-and-frameworks-01"
         },
         {
-          "title": "SAF now connects strategy, risk, responsibilities, and measurement",
-          "detail": "The Microsoft Security Adoption Framework page now describes links among business priorities, risk, Zero Trust principles, security disciplines, technologies, and technical solutions. It also adds guidance on shared responsibilities, implementation, measurement, and four connected framework components.",
+          "title": "SAF now ties priorities, risk, responsibilities, and measurement together",
+          "detail": "The updated SAF page explains how business priorities and risk connect to Zero Trust principles, security disciplines, technologies, and technical solutions. It also adds guidance on shared responsibilities, implementation, measurement, and four connected framework components for hybrid, multicloud, and multiplatform environments.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-microsoft-security-adoption-framework-saf-04"
         },
         {
-          "title": "SAF navigation now uses objective- and role-based entry points",
-          "detail": "Using SAF effectively replaces the previous top-down, build-up, and scenario-driven patterns with tables that direct readers by objective or organizational role to strategy, architecture, disciplines, scenarios, technologies, workshops, and related guidance.",
+          "title": "SAF navigation shifts to objective- and role-based entry points",
+          "detail": "“Using SAF effectively” replaces the previous top-down, build-up, and scenario-driven navigation patterns with tables that route readers by strategy, architecture, disciplines, scenarios, technologies, workshops, and related guidance. This helps administrators direct stakeholders to the material relevant to their objectives or organizational role.",
           "product": "Security adoption",
           "sourceId": "doc-2026-11-06-using-saf-effectively-03"
         }
@@ -99,38 +111,38 @@
       "generatedBy": "openai",
       "model": "gpt-5.6-luna",
       "reasoningEffort": "xhigh",
-      "generatedAt": "2026-11-07T09:01:37.040Z",
+      "generatedAt": "2026-11-07T13:14:54.903Z",
       "usage": {
-        "inputTokens": 2856,
-        "outputTokens": 1488,
-        "costUsd": 0.002357
+        "inputTokens": 1600,
+        "outputTokens": 1034,
+        "costUsd": 0.001561
       }
     }
   },
   "version": 3,
-  "generatedAt": "2026-11-07T09:01:37.040Z",
+  "generatedAt": "2026-11-07T13:14:54.903Z",
   "generator": {
     "model": "gpt-5.6-luna",
     "reasoningEffort": "xhigh"
   },
   "usageByDay": {
     "2026-11-07": {
-      "inputTokens": 8153,
-      "outputTokens": 4339,
-      "requests": 3,
-      "costUsd": 0.006837
+      "inputTokens": 12540,
+      "outputTokens": 7485,
+      "requests": 6,
+      "costUsd": 0.01149
     }
   },
   "lastRun": {
-    "inputTokens": 8153,
-    "outputTokens": 4339,
+    "inputTokens": 4387,
+    "outputTokens": 3146,
     "requests": 3,
-    "costUsd": 0.006837
+    "costUsd": 0.004653
   },
   "totalUsage": {
-    "inputTokens": 8153,
-    "outputTokens": 4339,
-    "requests": 3,
-    "costUsd": 0.006837
+    "inputTokens": 12540,
+    "outputTokens": 7485,
+    "requests": 6,
+    "costUsd": 0.01149
   }
 }
