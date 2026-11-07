@@ -28,7 +28,7 @@ permissions:
 
 jobs:
   monitor:
-    uses: merill/dailynews-engine/.github/workflows/product-monitor.yml@v1.4.0
+    uses: merill/dailynews-engine/.github/workflows/product-monitor.yml@v1.4.1
     secrets: inherit
     with:
       backfill_period_summaries: ${{ inputs.backfill_period_summaries == true }}

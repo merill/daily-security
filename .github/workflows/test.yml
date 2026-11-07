@@ -11,4 +11,4 @@ permissions:
 
 jobs:
   test:
-    uses: merill/dailynews-engine/.github/workflows/product-test.yml@v1.4.0
+    uses: merill/dailynews-engine/.github/workflows/product-test.yml@v1.4.1
