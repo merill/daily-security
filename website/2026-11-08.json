@@ -1,0 +1,61 @@
+{
+  "newFiles": [
+    {
+      "filename": "security-docs/zero-trust/security-adoption-existing-guidance.md",
+      "status": "added",
+      "additions": 70,
+      "deletions": 0,
+      "changes": 70,
+      "patch": "diff --git a/security-docs/zero-trust/security-adoption-existing-guidance.md b/security-docs/zero-trust/security-adoption-existing-guidance.md\nnew file mode 100644\nindex 0000000..8bc2cab\n--- /dev/null\n+++ b/security-docs/zero-trust/security-adoption-existing-guidance.md\n@@ -0,0 +1,70 @@\n+---\n+layout: Conceptual\n+title: How existing security guidance fits into SAF | Microsoft Learn\n+canonicalUrl: https://learn.microsoft.com/en-us/security/zero-trust/security-adoption-existing-guidance\n+uhfHeaderId: MSDocsHeader-Security\n+breadcrumb_path: /security/breadcrumb/toc.json\n+feedback_system: Standard\n+feedback_help_link_type: ''\n+ms.author: mas\n+author: MarkSimos\n+description: Learn how established Microsoft security guidance relates to the Microsoft Security Adoption Framework (SAF) and where to use each resource.\n+ms.date: 2026-11-06T00:00:00.0000000Z\n+ms.service: security\n+ms.subservice: zero-trust\n+ms.topic: concept-article\n+locale: en-us\n+document_id: 41486e12-9a07-8a3b-6664-e4bac9121502\n+document_version_independent_id: 41486e12-9a07-8a3b-6664-e4bac9121502\n+original_content_git_url: https://github.com/MicrosoftDocs/security-pr/blob/live/security-docs/zero-trust/security-adoption-existing-guidance.md\n+site_name: Docs\n+depot_name: MSDN.security-docs\n+page_type: conceptual\n+toc_rel: toc.json\n+pdf_url_template: https://learn.microsoft.com/pdfstore/en-us/MSDN.security-docs/{branchName}{pdfName}\n+feedback_product_url: ''\n+feedback_help_link_url: ''\n+asset_id: zero-trust/security-adoption-existing-guidance\n+moniker_range_name: \n+monikers: []\n+item_type: Content\n+source_path: security-docs/zero-trust/security-adoption-existing-guidance.md\n+cmProducts:\n+- https://authoring-docs-microsoft.poolparty.biz/devrel/fcc3cd4a-59ea-47a2-9cc1-784142a5a25d\n+spProducts:\n+- https://authoring-docs-microsoft.poolparty.biz/devrel/d7a55faf-a992-4e27-aa3a-eadc9830e778\n+platformId: 081aa481-2faf-afb0-d2cc-198a37683945\n+---\n+\n+# How existing security guidance fits into SAF | Microsoft Learn\n+\n+The Microsoft Security Adoption Framework (SAF) builds on established Microsoft security guidance rather than replacing it. SAF provides the adoption structure that connects business outcomes, roles, security disciplines, technologies, and technical solutions.\r\n+\r\n+Existing guidance relates to SAF in three ways:\r\n+\r\n+- **Integrated into SAF:** Relevant concepts or guidance are incorporated into SAF. Start with the corresponding SAF content.\r\n+- **SAF-aligned experience:** The resource helps stakeholders apply SAF through facilitated planning, assessment, or decision-making.\r\n+- **Companion guidance:** The resource remains independent and provides specialized depth for architecture, engineering, implementation, or operations.\r\n+\r\n+The relationships in this article identify useful reading and implementation paths. They aren't compliance mappings or statements of equivalence.\r\n+\r\n+[![Diagram showing how SAF integrates selected guidance and connects to complementary Microsoft security guidance.](media/adoption-guidance-context.png)](media/adoption-guidance-context.png#lightbox)\r\n+\r\n+## Guidance mapping\r\n+\r\n+| Existing Microsoft guidance | Where it fits in SAF | Relationship to SAF |\r\n+| --- | --- | --- |\r\n+| **[CISO workshop](workshop-business-security-leaders)** | [Strategy, integration, and governance](security-adoption-discipline-strategy) | **Integrated component of SAF.** Provides strategy, program, and governance guidance for security leaders. |\r\n+| **[Microsoft Cybersecurity Reference Architectures (MCRA)](microsoft-reference-architecture)** | [Security architecture](security-adoption-discipline-architecture) | **Integrated component of SAF.** Provides reference architectures and technical planning guidance across security disciplines and technologies. |\r\n+| **[Immutable Laws of Security](security-adoption-discipline-architecture-tips)** | [Security architecture](security-adoption-discipline-architecture) and [security disciplines](security-adoption-discipline-overview) | **Integrated component of SAF.** Provides durable security design principles used to inform and validate security decisions. |\r\n+| **[Privileged access guidance](/en-us/security/privileged-access-workstations/overview)** | [Access and identity](security-adoption-discipline-access-identity.md) | **Integrated component of SAF.** Provides guidance for protecting privileged access, including privileged access workstations and related controls. |\r\n+| **[Microsoft Security Development Lifecycle (SDL)](https://www.microsoft.com/securityengineering/sdl/)** | [Development security](security-adoption-discipline-development) | **Complements SAF.** Provides deeper engineering practices and lifecycle guidance for secure development. |\r\n+| **[Incident-response playbooks](security-operations-incident-response-playbooks)** | [Security operations (SecOps)](security-adoption-discipline-security-operations) | **Integrated component of SAF.** Provides operational guidance for preparing for and responding to security incidents. |\r\n+| **[SAF workshops](workshop-business-overview)** | [Multiple security disciplines](security-adoption-discipline-overview) | **Integrated component of SAF.** Provides facilitated planning, stakeholder alignment, decision-making, and roadmap development across multiple SAF disciplines. |\r\n+| **[Zero Trust assessment](assessment/overview)** | [Technologies](deploy/overview) and [technical solutions](implement-overview) | **Complements SAF.** Helps organizations assess and improve implementation of Zero Trust technology controls. |\r\n+\r\n+## Use the mapping\r\n+\r\n+Integrated components such as the CISO workshop, MCRA, privileged access guidance, the Immutable Laws of Security, and incident-response playbooks contribute directly to SAF disciplines and guidance. Other resources, such as SDL and the Zero Trust assessment and workshops, complement SAF with deeper engineering, assessment, and implementation guidance.\r\n+\r\n+Use these resources as part of an integrated security program rather than as separate or competing frameworks. SAF provides the organizing model that connects this guidance to business outcomes, security disciplines, technologies, roles, and implementation.\n\\ No newline at end of file\n",
+      "baseCommitSha": "485842e22428e9677306144ef3c61660f3bf78c3",
+      "commitSha": "00027d37f65671233f3ef55d6ba34d3c64c36da0",
+      "commitMessage": "Mirror Learn: 1 added",
+      "commitAuthor": "github-actions[bot]",
+      "commitDate": "2026-11-08 01:23:40 +0000",
+      "githubUrl": "https://github.com/merill/security-docs-mirror/blob/main/security-docs/zero-trust/security-adoption-existing-guidance.md",
+      "publicDocsUrl": "https://learn.microsoft.com/en-us/security/zero-trust/security-adoption-existing-guidance",
+      "eventId": "security-docs:00027d37f65671233f3ef55d6ba34d3c64c36da0:added:security-docs/zero-trust/security-adoption-existing-guidance.md",
+      "firstSeenAt": "2026-11-08T09:12:28.926Z",
+      "englishSummary": {
+        "category": "Doc update",
+        "headline": "New guidance maps existing security resources to SAF",
+        "summary": "The article explains how established Microsoft security guidance relates to the Security Adoption Framework (SAF), grouping resources as integrated, SAF-aligned, or companion guidance and mapping them to SAF disciplines.",
+        "adminImpact": "Administrators can use the mappings to find relevant planning, architecture, implementation, and operations guidance; no administrative action is specified.",
+        "actionRequired": false,
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
+      }
+    }
+  ],
+  "modifiedFiles": [],
+  "deletedFiles": [],
+  "messageCenterItems": [],
+  "summary": {
+    "totalCommits": 1,
+    "totalFiles": 1,
+    "authors": [
+      "github-actions[bot]"
+    ]
+  },
+  "englishSummary": {
+    "overview": "Today's report includes 1 new, 0 updated, and 0 removed Microsoft security guidance documentation files across 1 documentation area.",
+    "groups": [
+      {
+        "category": "Doc update",
+        "title": "Zero Trust",
+        "summary": "The article explains how established Microsoft security guidance relates to the Security Adoption Framework (SAF), grouping resources as integrated, SAF-aligned, or companion guidance and mapping them to SAF disciplines.",
+        "sourceFiles": [
+          "security-docs/zero-trust/security-adoption-existing-guidance.md"
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "category": "Doc update",
+        "headline": "Zero Trust",
+        "detail": "The article explains how established Microsoft security guidance relates to the Security Adoption Framework (SAF), grouping resources as integrated, SAF-aligned, or companion guidance and mapping them to SAF disciplines."
+      }
+    ],
+    "generatedBy": "fallback"
+  }
+}
