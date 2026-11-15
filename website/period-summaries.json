@@ -67,6 +67,52 @@
         "outputTokens": 489,
         "costUsd": 0.000762
       }
+    },
+    "2026-11-15": {
+      "headline": "AI security, post-quantum readiness, and assessments gain new SAF guidance",
+      "overview": "The most consequential additions put concrete planning structure around the Security Adoption Framework (SAF): seven AI security control areas, cryptographic dependency discovery and quantum-resistant migration planning, and a documented workflow for reviewing Zero Trust Assessment results. Related pages map CIS Controls and Benchmarks, NIST CSF 2.0, and The Open Group Zero Trust model to SAF roles, disciplines, technologies, and implementation guidance. Updated Secure Future Initiative material emphasizes phishing-resistant authentication, managed identities, and secret and key lifecycle protection, while SecOps guidance adds incident governance, human oversight, and four implementation patterns.",
+      "adminImpact": "Use the new SAF material to sequence AI inventories, lifecycle governance, least-privilege and monitoring work; discover cryptographic dependencies and plan phased post-quantum replacements; and investigate skipped or errored assessment checks before optionally importing mapped findings into Zero Trust Workshop notes. Apply the standards mappings to assign owners and establish configuration baselines, and review SFI identity and secret priorities against existing privileged-access and key-management practices.",
+      "keyChanges": [
+        {
+          "title": "AI security guidance defines seven control areas",
+          "detail": "The new Secure AI with Zero Trust guidance covers AI applications, agents, identities, models, data, tools, and infrastructure. Its seven control areas span risk assessment and access control through monitoring and response, providing scope for AI inventories, lifecycle governance, least-privilege access, data protection, secure deployment, and activity monitoring.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-secure-ai-with-zero-trust-14"
+        },
+        {
+          "title": "Post-quantum guidance starts with cryptographic dependency discovery",
+          "detail": "New SAF guidance calls for identifying vulnerable cryptographic dependencies, planning quantum-resistant replacements, and maintaining readiness as standards and threats evolve. It addresses identity, applications, infrastructure, communications, IoT and OT, and supply-chain integrations, including harvest-now, decrypt-later exposure.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-plan-cryptographic-agility-and-post-quantum-readiness-05"
+        },
+        {
+          "title": "Zero Trust assessment guidance documents review and handoff steps",
+          "detail": "The new page explains how to review reports across seven Zero Trust pillars, investigate skipped checks and errors, and optionally import mapped findings into Zero Trust Workshop task notes. It also documents report paths, prerequisites, data protections, and integration limitations.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-review-zero-trust-assessment-results-18"
+        },
+        {
+          "title": "CIS mapping separates practice prioritization from configuration baselines",
+          "detail": "The new mapping distinguishes CIS Controls v8.1, used to prioritize security practices, from CIS Benchmarks, used for technology-specific configuration. It maps both to SAF roles, disciplines, technologies, and implementation guidance.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-map-cis-controls-and-cis-benchmarks-to-saf-06"
+        },
+        {
+          "title": "SFI identity guidance emphasizes phishing-resistant authentication and secret lifecycle",
+          "detail": "The updated guidance reframes identity and secret protection around reducing identity compromise, token abuse, and exposed-secret risk. It highlights phishing-resistant authentication, fewer static credentials, managed identities, automated key and secret lifecycle controls, standardized SDKs, and faster credential remediation.",
+          "product": "Secure Future Initiative",
+          "sourceId": "doc-2026-11-15-protect-identities-and-secrets-in-the-microsoft-secure-future-initiative-sfi-99"
+        }
+      ],
+      "generatedBy": "openai",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "xhigh",
+      "generatedAt": "2026-11-15T19:53:44.669Z",
+      "usage": {
+        "inputTokens": 6144,
+        "outputTokens": 5818,
+        "costUsd": 0.00821
+      }
     }
   },
   "weeks": {
@@ -109,52 +155,104 @@
         "outputTokens": 1583,
         "costUsd": 0.002205
       }
-    }
-  },
-  "months": {
-    "2026-11": {
-      "headline": "SAF adds Zero Trust mappings and role-based routes across security guidance",
-      "overview": "November’s substantive changes expand the Security Adoption Framework (SAF) as a planning and navigation model. New guidance maps Zero Trust and other framework objectives to SAF disciplines, roles, Microsoft capabilities, and implementation resources, while related updates connect existing guidance and provide goal- and role-based entry points. Two lower-impact edits only refreshed titles, capitalization, or publication dates for MCRA and the SecOps workshop.",
-      "adminImpact": "Security architects and administrators can use the new mappings to plan improvements and assess alignment with Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy. The expanded SAF material also helps teams clarify shared responsibilities, route stakeholders to relevant strategy or implementation guidance, and track progress across hybrid, multicloud, and multiplatform environments. No configuration, migration, or other administrative action is specified.",
+    },
+    "2026-11-09": {
+      "headline": "New SAF guidance targets AI controls, DevSecOps, and post-quantum readiness",
+      "overview": "The period brought a broad Security Adoption Framework (SAF) and Zero Trust guidance expansion. New material provides planning paths for securing AI systems, governing agent-assisted defense, protecting software delivery, preparing for cryptographic migration, and relating established frameworks to SAF. Existing Secure Future Initiative and SecOps guidance was also reorganized around outcomes, governance, decision authority, and operational lifecycles.",
+      "adminImpact": "Security architects and administrators can use the new SAF material to build AI inventories and control plans, define agent-automation boundaries, prioritize development-security backlogs, identify cryptographic dependencies, and map compliance or security practices to accountable teams and implementation work.",
       "keyChanges": [
         {
-          "title": "Framework objectives are mapped into SAF planning paths",
-          "detail": "New guidance maps security standards and framework objectives to SAF disciplines, organizational roles, Microsoft security capabilities, and implementation guidance. It specifically covers Zero Trust, the CISA Zero Trust Maturity Model, and the DoD Zero Trust Strategy.",
-          "product": "Security adoption",
-          "sourceId": "doc-2026-11-06-security-standards-and-frameworks-01"
+          "title": "SAF adds seven-area guidance for securing AI environments",
+          "detail": "The new Secure AI with Zero Trust guidance covers AI applications, agents, identities, models, data, tools, and infrastructure across seven control areas, including risk assessment, access control, monitoring, and response. It gives administrators a planning basis for AI inventories, lifecycle governance, least-privilege access, data protection, secure deployment, and activity monitoring.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-secure-ai-with-zero-trust-14"
         },
         {
-          "title": "Existing Microsoft guidance is organized around SAF disciplines",
-          "detail": "A new article classifies established guidance as integrated, SAF-aligned, or companion material and maps those resources to SAF disciplines, helping teams locate planning, architecture, implementation, and operations content.",
-          "product": "Security adoption",
-          "sourceId": "doc-2026-11-08-how-existing-security-guidance-fits-into-saf-01"
+          "title": "Agent-assisted defense guidance defines governance and oversight practices",
+          "detail": "Defend with agents using SAF explains how to apply AI-assisted and agentic capabilities in security operations, with emphasis on governance, human oversight, bounded automation, measurable outcomes, and SAF-aligned implementation paths. Administrators can use it to set approval and rollback boundaries, assign accountability, and measure operational effectiveness.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-defend-with-agents-using-saf-10"
         },
         {
-          "title": "SAF guidance now connects priorities, risk, roles, and measurement",
-          "detail": "The SAF overview now links business priorities and risk with Zero Trust principles, security disciplines, technologies, and technical solutions. It adds guidance on shared responsibilities, implementation, measurement, and four connected framework components for hybrid, multicloud, and multiplatform environments.",
-          "product": "Security adoption",
-          "sourceId": "doc-2026-11-06-microsoft-security-adoption-framework-saf-04"
+          "title": "The DevSecOps workshop adds roadmap outputs and implementation areas",
+          "detail": "The new Microsoft Zero Trust Workshop - DevSecOps aligns the workshop pillar with the SAF Development Security discipline and identifies roadmap outputs covering repository governance, developer access, secrets, and code review. Administrators can use the material to identify gaps and prioritize a development-security implementation backlog.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-microsoft-zero-trust-workshop-devsecops-22"
         },
         {
-          "title": "SAF navigation shifts to objective- and role-based entry points",
-          "detail": "“Using SAF effectively” replaces the previous top-down, build-up, and scenario-driven navigation patterns with tables that direct readers by strategy, architecture, disciplines, scenarios, technologies, workshops, and related guidance.",
-          "product": "Security adoption",
-          "sourceId": "doc-2026-11-06-using-saf-effectively-03"
+          "title": "SAF introduces a post-quantum readiness planning path",
+          "detail": "Plan cryptographic agility and post-quantum readiness directs teams to identify vulnerable cryptographic dependencies and plan quantum-resistant replacements across identity, applications, infrastructure, communications, IoT/OT, and supply-chain integrations. The guidance supports phased planning where migration requires significant lead time and sensitive data faces harvest-now, decrypt-later risk.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-plan-cryptographic-agility-and-post-quantum-readiness-05"
+        },
+        {
+          "title": "CIS Controls and Benchmarks receive distinct SAF mappings",
+          "detail": "The new mapping distinguishes CIS Controls v8.1, which prioritizes security practices, from CIS Benchmarks, which provide technology-specific configuration guidance. Both are mapped to SAF roles, disciplines, technologies, and implementation guidance, giving administrators a basis for assigning ownership, establishing baselines, validating compatibility, managing exceptions, and tracking improvements.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-map-cis-controls-and-cis-benchmarks-to-saf-06"
         }
       ],
       "generatedBy": "openai",
       "model": "gpt-5.6-luna",
       "reasoningEffort": "xhigh",
-      "generatedAt": "2026-11-08T09:12:35.772Z",
+      "generatedAt": "2026-11-15T19:53:44.669Z",
       "usage": {
-        "inputTokens": 1687,
-        "outputTokens": 1060,
-        "costUsd": 0.001609
+        "inputTokens": 10577,
+        "outputTokens": 2891,
+        "costUsd": 0.005585
+      }
+    }
+  },
+  "months": {
+    "2026-11": {
+      "headline": "Security Adoption Framework adds AI, DevSecOps and post-quantum planning paths",
+      "overview": "November’s substantive security guidance centered on a broad SAF and Zero Trust expansion. New material covers AI systems and agent-assisted defense, development-security implementation, cryptographic-agility planning, and framework alignment, while Secure Future Initiative guidance was reorganized around security outcomes and priorities. The most actionable themes are AI governance, software-delivery controls, cryptographic dependency discovery, and identity and secret protection.",
+      "adminImpact": "Security architects can use the new material to build AI inventories and lifecycle controls, set approval and rollback boundaries for agent-assisted operations, identify cryptographic dependencies ahead of phased migration, and create DevSecOps backlogs covering repositories, developer access, secrets, and code review. Teams reviewing SFI guidance should reassess identity and secret-management priorities, including phishing-resistant authentication, managed identities, automated key and secret lifecycle controls, and exposed-secret detection.",
+      "keyChanges": [
+        {
+          "title": "Zero Trust guidance defines seven AI security control areas",
+          "detail": "The new Secure AI with Zero Trust guidance organizes AI security across seven control areas and addresses AI applications, agents, identities, models, data, tools, and infrastructure. It gives administrators planning reference points for inventory, lifecycle governance, least-privilege access, data protection, secure deployment, monitoring, and response.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-secure-ai-with-zero-trust-14"
+        },
+        {
+          "title": "Agent-assisted defense guidance sets operating guardrails",
+          "detail": "New SAF guidance covers AI-assisted and agentic capabilities in security operations, emphasizing governance, human oversight, bounded automation, measurable outcomes, and SAF-aligned implementation paths. Teams can use those principles to define accountability, approval boundaries, and rollback expectations.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-defend-with-agents-using-saf-10"
+        },
+        {
+          "title": "Post-quantum planning starts with cryptographic dependency discovery",
+          "detail": "New SAF guidance directs teams to identify vulnerable cryptographic dependencies, plan quantum-resistant replacements, and maintain readiness as standards and threats evolve across identity, applications, infrastructure, communications, IoT and OT, and supply-chain integrations. It also highlights harvest-now, decrypt-later risk and the potentially long migration lead time.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-plan-cryptographic-agility-and-post-quantum-readiness-05"
+        },
+        {
+          "title": "DevSecOps workshop translates delivery risks into an implementation backlog",
+          "detail": "New Zero Trust Workshop guidance aligns the DevSecOps pillar with SAF’s Development Security discipline and defines roadmap areas including repository governance, developer access, secrets, and code review. Administrators can use it to identify gaps and prioritize a development-security backlog.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-microsoft-zero-trust-workshop-devsecops-22"
+        },
+        {
+          "title": "SFI identity guidance prioritizes phishing-resistant authentication and secret reduction",
+          "detail": "The revised SFI guidance frames identity and secret protection around reducing identity compromise, token abuse, and exposed-secret risk. Its priorities include phishing-resistant authentication, reduced static credentials through managed identities, automated key and secret lifecycle controls, standardized SDKs, and faster credential remediation.",
+          "product": "Secure Future Initiative",
+          "sourceId": "doc-2026-11-15-protect-identities-and-secrets-in-the-microsoft-secure-future-initiative-sfi-99"
+        }
+      ],
+      "generatedBy": "openai",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "xhigh",
+      "generatedAt": "2026-11-15T19:53:44.669Z",
+      "usage": {
+        "inputTokens": 6417,
+        "outputTokens": 3298,
+        "costUsd": 0.005241
       }
     }
   },
   "version": 3,
-  "generatedAt": "2026-11-08T09:12:35.772Z",
+  "generatedAt": "2026-11-15T19:53:44.669Z",
   "generator": {
     "model": "gpt-5.6-luna",
     "reasoningEffort": "xhigh"
@@ -171,18 +269,24 @@
       "outputTokens": 3132,
       "requests": 3,
       "costUsd": 0.004576
+    },
+    "2026-11-15": {
+      "inputTokens": 23138,
+      "outputTokens": 12007,
+      "requests": 3,
+      "costUsd": 0.019036
     }
   },
   "lastRun": {
-    "inputTokens": 4088,
-    "outputTokens": 3132,
+    "inputTokens": 23138,
+    "outputTokens": 12007,
     "requests": 3,
-    "costUsd": 0.004576
+    "costUsd": 0.019036
   },
   "totalUsage": {
-    "inputTokens": 16628,
-    "outputTokens": 10617,
-    "requests": 9,
-    "costUsd": 0.016066
+    "inputTokens": 39766,
+    "outputTokens": 22624,
+    "requests": 12,
+    "costUsd": 0.035102
   }
 }
