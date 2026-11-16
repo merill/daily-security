@@ -113,6 +113,28 @@
         "outputTokens": 5818,
         "costUsd": 0.00821
       }
+    },
+    "2026-11-16": {
+      "headline": "AI-era security guidance now centers on foundations, defensive agents, and agentic insiders",
+      "overview": "The Zero Trust page “Security for the AI era” was retitled and substantially revised. It now addresses AI-amplified exposure, autonomous attacks, and agentic-insider risk through three priorities: secure foundations, defend with agents, and secure the agentic insider.",
+      "adminImpact": "Administrators should use the revised guidance to align security planning with AI-related risks and the three stated priorities. The page also contains updated links and metadata.",
+      "keyChanges": [
+        {
+          "title": "Revised guidance introduces three AI-security priorities",
+          "detail": "The retitled page now explains AI-amplified exposure, autonomous attacks, and agentic-insider risk, organizing its guidance around secure foundations, defend with agents, and secure the agentic insider.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-16-security-for-the-ai-era-01"
+        }
+      ],
+      "generatedBy": "openai",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "xhigh",
+      "generatedAt": "2026-11-16T23:26:45.025Z",
+      "usage": {
+        "inputTokens": 930,
+        "outputTokens": 718,
+        "costUsd": 0.001048
+      }
     }
   },
   "weeks": {
@@ -201,58 +223,80 @@
         "outputTokens": 2891,
         "costUsd": 0.005585
       }
-    }
-  },
-  "months": {
-    "2026-11": {
-      "headline": "Security Adoption Framework adds AI, DevSecOps and post-quantum planning paths",
-      "overview": "November’s substantive security guidance centered on a broad SAF and Zero Trust expansion. New material covers AI systems and agent-assisted defense, development-security implementation, cryptographic-agility planning, and framework alignment, while Secure Future Initiative guidance was reorganized around security outcomes and priorities. The most actionable themes are AI governance, software-delivery controls, cryptographic dependency discovery, and identity and secret protection.",
-      "adminImpact": "Security architects can use the new material to build AI inventories and lifecycle controls, set approval and rollback boundaries for agent-assisted operations, identify cryptographic dependencies ahead of phased migration, and create DevSecOps backlogs covering repositories, developer access, secrets, and code review. Teams reviewing SFI guidance should reassess identity and secret-management priorities, including phishing-resistant authentication, managed identities, automated key and secret lifecycle controls, and exposed-secret detection.",
+    },
+    "2026-11-16": {
+      "headline": "Security for the AI era adds priorities for AI-amplified and agentic risk",
+      "overview": "Zero Trust guidance titled “Security for the AI era” was retitled and substantially revised. It now addresses AI-amplified exposure, autonomous attacks, and agentic-insider risk through three priorities: secure foundations, defend with agents, and secure the agentic insider.",
+      "adminImpact": "Administrators should use the revised guidance to align security planning with AI-related risks and the three stated priorities.",
       "keyChanges": [
         {
-          "title": "Zero Trust guidance defines seven AI security control areas",
-          "detail": "The new Secure AI with Zero Trust guidance organizes AI security across seven control areas and addresses AI applications, agents, identities, models, data, tools, and infrastructure. It gives administrators planning reference points for inventory, lifecycle governance, least-privilege access, data protection, secure deployment, monitoring, and response.",
+          "title": "AI-era security guidance reorganized around three priorities",
+          "detail": "The page now explains AI-amplified exposure, autonomous attacks, and agentic-insider risk, and presents the priorities “secure foundations,” “defend with agents,” and “secure the agentic insider.” Links and metadata were also updated.",
           "product": "Zero Trust",
-          "sourceId": "doc-2026-11-15-secure-ai-with-zero-trust-14"
-        },
-        {
-          "title": "Agent-assisted defense guidance sets operating guardrails",
-          "detail": "New SAF guidance covers AI-assisted and agentic capabilities in security operations, emphasizing governance, human oversight, bounded automation, measurable outcomes, and SAF-aligned implementation paths. Teams can use those principles to define accountability, approval boundaries, and rollback expectations.",
-          "product": "Zero Trust",
-          "sourceId": "doc-2026-11-15-defend-with-agents-using-saf-10"
-        },
-        {
-          "title": "Post-quantum planning starts with cryptographic dependency discovery",
-          "detail": "New SAF guidance directs teams to identify vulnerable cryptographic dependencies, plan quantum-resistant replacements, and maintain readiness as standards and threats evolve across identity, applications, infrastructure, communications, IoT and OT, and supply-chain integrations. It also highlights harvest-now, decrypt-later risk and the potentially long migration lead time.",
-          "product": "Zero Trust",
-          "sourceId": "doc-2026-11-15-plan-cryptographic-agility-and-post-quantum-readiness-05"
-        },
-        {
-          "title": "DevSecOps workshop translates delivery risks into an implementation backlog",
-          "detail": "New Zero Trust Workshop guidance aligns the DevSecOps pillar with SAF’s Development Security discipline and defines roadmap areas including repository governance, developer access, secrets, and code review. Administrators can use it to identify gaps and prioritize a development-security backlog.",
-          "product": "Zero Trust",
-          "sourceId": "doc-2026-11-15-microsoft-zero-trust-workshop-devsecops-22"
-        },
-        {
-          "title": "SFI identity guidance prioritizes phishing-resistant authentication and secret reduction",
-          "detail": "The revised SFI guidance frames identity and secret protection around reducing identity compromise, token abuse, and exposed-secret risk. Its priorities include phishing-resistant authentication, reduced static credentials through managed identities, automated key and secret lifecycle controls, standardized SDKs, and faster credential remediation.",
-          "product": "Secure Future Initiative",
-          "sourceId": "doc-2026-11-15-protect-identities-and-secrets-in-the-microsoft-secure-future-initiative-sfi-99"
+          "sourceId": "doc-2026-11-16-security-for-the-ai-era-01"
         }
       ],
       "generatedBy": "openai",
       "model": "gpt-5.6-luna",
       "reasoningEffort": "xhigh",
-      "generatedAt": "2026-11-15T19:53:44.669Z",
+      "generatedAt": "2026-11-16T23:26:45.025Z",
       "usage": {
-        "inputTokens": 6417,
-        "outputTokens": 3298,
-        "costUsd": 0.005241
+        "inputTokens": 847,
+        "outputTokens": 494,
+        "costUsd": 0.000762
+      }
+    }
+  },
+  "months": {
+    "2026-11": {
+      "headline": "SAF expands with AI controls, DevSecOps patterns, framework mappings, and quantum readiness",
+      "overview": "November’s substantive work expands the Security Adoption Framework (SAF) into a broader planning system: new material covers AI control areas, agent-assisted defense, development-security implementation patterns, cryptographic agility, and mappings to established frameworks. Separate Secure Future Initiative and SecOps revisions recast identity, secrets, tenant isolation, incident governance, escalation, and human oversight around outcomes and priorities. The practical effect is a denser set of planning and implementation references for security architects and administrators.",
+      "adminImpact": "Use the new SAF material to inventory AI systems and cryptographic dependencies, define bounded automation and accountability, assign development-security ownership, and map practices to controls and implementation guidance. Review SFI identity and secrets priorities and use the revised SecOps lifecycle guidance to align playbooks, escalation, decision authority, and oversight.",
+      "keyChanges": [
+        {
+          "title": "AI security guidance expands across seven control areas",
+          "detail": "The new Secure AI with Zero Trust article covers AI applications, agents, identities, models, data, tools, and infrastructure across seven control areas, from risk assessment and access control to monitoring and response. Administrators gain a planning path for inventories, lifecycle governance, least privilege, data protection, secure deployment, and AI activity monitoring.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-secure-ai-with-zero-trust-14"
+        },
+        {
+          "title": "Agent-assisted defense gets governance and bounded automation",
+          "detail": "Defend with agents using SAF adds guidance on governance, human oversight, bounded automation, measurable outcomes, and SAF-aligned implementation paths for AI-assisted and agentic security operations. Administrators can use it to define approval and rollback boundaries, assign accountability, and measure operational effectiveness.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-defend-with-agents-using-saf-10"
+        },
+        {
+          "title": "SAF documents repeatable patterns from repositories to delivery pipelines",
+          "detail": "New development security implementation patterns cover development environments, engineering workflows, repositories, toolchains, and delivery pipelines. The guidance gives administrators a reference for applying controls across developer access, endpoints, source control, and code-to-production processes.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-development-security-implementation-patterns-01"
+        },
+        {
+          "title": "Post-quantum planning starts with cryptographic dependency discovery",
+          "detail": "New guidance calls for identifying vulnerable cryptographic dependencies, planning quantum-resistant replacements, and maintaining readiness as standards and threats evolve. Its scope includes identity, applications, infrastructure, communications, IoT and OT, and supply-chain integrations, while highlighting harvest-now, decrypt-later risk and potentially long migration lead times.",
+          "product": "Zero Trust",
+          "sourceId": "doc-2026-11-15-plan-cryptographic-agility-and-post-quantum-readiness-05"
+        },
+        {
+          "title": "CIS Controls and Benchmarks now map to SAF execution",
+          "detail": "The new mapping distinguishes CIS Controls v8.1, used to prioritize security practices, from CIS Benchmarks, used for technology-specific configuration, then connects both to SAF roles, disciplines, technologies, and implementation guidance. Administrators can use it to assign responsibilities, establish configuration baselines, manage exceptions, and monitor improvement.",
+          "product": "Security adoption",
+          "sourceId": "doc-2026-11-15-map-cis-controls-and-cis-benchmarks-to-saf-06"
+        }
+      ],
+      "generatedBy": "openai",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "xhigh",
+      "generatedAt": "2026-11-16T23:26:45.025Z",
+      "usage": {
+        "inputTokens": 6526,
+        "outputTokens": 4993,
+        "costUsd": 0.007297
       }
     }
   },
   "version": 3,
-  "generatedAt": "2026-11-15T19:53:44.669Z",
+  "generatedAt": "2026-11-16T23:26:45.025Z",
   "generator": {
     "model": "gpt-5.6-luna",
     "reasoningEffort": "xhigh"
@@ -275,18 +319,24 @@
       "outputTokens": 12007,
       "requests": 3,
       "costUsd": 0.019036
+    },
+    "2026-11-16": {
+      "inputTokens": 8303,
+      "outputTokens": 6205,
+      "requests": 3,
+      "costUsd": 0.009107
     }
   },
   "lastRun": {
-    "inputTokens": 23138,
-    "outputTokens": 12007,
+    "inputTokens": 8303,
+    "outputTokens": 6205,
     "requests": 3,
-    "costUsd": 0.019036
+    "costUsd": 0.009107
   },
   "totalUsage": {
-    "inputTokens": 39766,
-    "outputTokens": 22624,
-    "requests": 12,
-    "costUsd": 0.035102
+    "inputTokens": 48069,
+    "outputTokens": 28829,
+    "requests": 15,
+    "costUsd": 0.044209
   }
 }
