@@ -1,0 +1,61 @@
+{
+  "newFiles": [],
+  "modifiedFiles": [
+    {
+      "filename": "security-docs/saf/framework-mappings/open-group-zero-trust.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "changes": 5,
+      "patch": "diff --git a/security-docs/saf/framework-mappings/open-group-zero-trust.md b/security-docs/saf/framework-mappings/open-group-zero-trust.md\nindex 465cb2d..a37ba0f 100644\n--- a/security-docs/saf/framework-mappings/open-group-zero-trust.md\n+++ b/security-docs/saf/framework-mappings/open-group-zero-trust.md\n@@ -9,7 +9,8 @@ feedback_help_link_type: ''\n ms.author: mas\n author: MarkSimos\n description: Map The Open Group Zero Trust capabilities, security roles, and Architecture Building Blocks to Microsoft Security Adoption Framework work and Microsoft technology examples.\n-ms.date: 2026-11-09T00:00:00.0000000Z\n+ms.date: 2026-11-24T00:00:00.0000000Z\n+ms.custom: msecd-doc-authoring-1030\n ms.service: security\n ms.subservice: zero-trust\n ms.topic: concept-article\n@@ -103,7 +104,7 @@ The following mappings connect selected ABBs to Microsoft technologies that can\n | **ACSOP-1.3.7** | Technical Anomaly Platform (machine learning, reverse engineering, and related analytics) | 3 | Microsoft Defender; Microsoft Defender for Cloud |\r\n | **ACSOP-1.3.8** | Behavior Anomaly Platform (UEBA) | 3 | Microsoft Defender; Microsoft Sentinel |\r\n | **ACSOP-1.3.9** | Threat Intelligence Platform (TIP) | 3 | Microsoft Defender Threat Intelligence; Microsoft Security Copilot |\r\n-| **ACSOP-1.3.10** | SecOps AI and Agent Platform | 3 | Microsoft Security Copilot; Project Perception (preview) |\r\n+| **ACSOP-1.3.10** | SecOps AI and Agent Platform | 3 | Microsoft Security Copilot; Microsoft Perception |\r\n \r\n The Microsoft Security Architecture Design Session for SecOps/SOC also includes guidance related to ACSOP-1.1 SecOps Core Reactive Processes and ACSOP-1.2 SecOps Proactive Processes ABBs.\r\n \r\n",
+      "baseCommitSha": "9487e001c5ec3924a164c15201c64c006e85455a",
+      "commitSha": "40989230dccb7eff723d157a52ecbc93dce846ea",
+      "commitMessage": "Mirror Learn: 1 changed",
+      "commitAuthor": "github-actions[bot]",
+      "commitDate": "2026-11-26 00:17:08 +0000",
+      "githubUrl": "https://github.com/merill/security-docs-mirror/blob/main/security-docs/saf/framework-mappings/open-group-zero-trust.md",
+      "publicDocsUrl": "https://learn.microsoft.com/en-us/security/saf/framework-mappings/open-group-zero-trust",
+      "eventId": "security-docs:40989230dccb7eff723d157a52ecbc93dce846ea:modified:security-docs/saf/framework-mappings/open-group-zero-trust.md",
+      "firstSeenAt": "2026-11-26T11:06:38.604Z",
+      "englishSummary": {
+        "category": "Doc update",
+        "headline": "Open Group Zero Trust mapping updated",
+        "summary": "The ACSOP-1.3.10 mapping now lists Microsoft Perception instead of Project Perception (preview). Documentation metadata was also updated.",
+        "adminImpact": "Administrators referencing this framework mapping will see the current product name; no action is required.",
+        "actionRequired": false,
+        "generatedBy": "openai",
+        "model": "gpt-5.6-luna"
+      }
+    }
+  ],
+  "deletedFiles": [],
+  "messageCenterItems": [],
+  "summary": {
+    "totalCommits": 1,
+    "totalFiles": 1,
+    "authors": [
+      "github-actions[bot]"
+    ]
+  },
+  "englishSummary": {
+    "overview": "Today's report includes 0 new, 1 updated, and 0 removed Microsoft security guidance documentation files across 1 documentation area.",
+    "groups": [
+      {
+        "category": "Doc update",
+        "title": "Microsoft security guidance",
+        "summary": "The ACSOP-1.3.10 mapping now lists Microsoft Perception instead of Project Perception (preview). Documentation metadata was also updated.",
+        "sourceFiles": [
+          "security-docs/saf/framework-mappings/open-group-zero-trust.md"
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "category": "Doc update",
+        "headline": "Microsoft security guidance",
+        "detail": "The ACSOP-1.3.10 mapping now lists Microsoft Perception instead of Project Perception (preview). Documentation metadata was also updated."
+      }
+    ],
+    "generatedBy": "fallback"
+  }
+}
